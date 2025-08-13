@@ -1,6 +1,20 @@
 import 'reflect-metadata'; // 필수
 import express from "express";
-import bootstrap from "./packages";
+import bootstrap, {
+    Controller,
+    Get,
+    Post,
+    Put,
+    Delete,
+    Patch,
+    Builder,
+    Injectable,
+    Inject,
+    Service,
+    Log,
+    Validate,
+    ValidatedWith
+} from "./ysh-decorator";
 
 const port = 3000;
 
